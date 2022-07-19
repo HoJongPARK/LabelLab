@@ -14,6 +14,7 @@
 		002789982885986F00BDCDA4 /* LabelLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002789972885986F00BDCDA4 /* LabelLabTests.swift */; };
 		002789A22885986F00BDCDA4 /* LabelLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002789A12885986F00BDCDA4 /* LabelLabUITests.swift */; };
 		002789A42885986F00BDCDA4 /* LabelLabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002789A32885986F00BDCDA4 /* LabelLabUITestsLaunchTests.swift */; };
+		00A79A2F2886DC48006D5DCD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00A79A2E2886DC48006D5DCD /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		0027899D2885986F00BDCDA4 /* LabelLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LabelLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		002789A12885986F00BDCDA4 /* LabelLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelLabUITests.swift; sourceTree = "<group>"; };
 		002789A32885986F00BDCDA4 /* LabelLabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelLabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		00A79A2E2886DC48006D5DCD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		002789792885986C00BDCDA4 = {
 			isa = PBXGroup;
 			children = (
+				00A79A2E2886DC48006D5DCD /* GoogleService-Info.plist */,
 				002789842885986D00BDCDA4 /* LabelLab */,
 				002789962885986F00BDCDA4 /* LabelLabTests */,
 				002789A02885986F00BDCDA4 /* LabelLabUITests */,
@@ -299,6 +302,7 @@
 			files = (
 				0027898D2885986F00BDCDA4 /* Preview Assets.xcassets in Resources */,
 				0027898A2885986F00BDCDA4 /* Assets.xcassets in Resources */,
+				00A79A2F2886DC48006D5DCD /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
